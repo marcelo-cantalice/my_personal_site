@@ -1,0 +1,37 @@
+.teste {
+    height: 100px;
+}
+
+.st_nav {
+    background-color: blueviolet;
+}
+
+.style_segments {
+    display: flexbox;
+}
+
+.skill_segment {}
+
+.style_segments h1 {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.list_skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.skill_item {}
+
+.contact_segment {
+    display: flexbox;
+
+}
+
+.contact_style {
+    text-align: center;
+}
