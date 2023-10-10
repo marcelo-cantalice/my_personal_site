@@ -1,13 +1,9 @@
-.teste {
-    height: 100px;
-}
-
-.st_nav {
-    background-color: blueviolet;
-}
-
 .style_segments {
     display: flexbox;
+}
+
+.logo_style {
+    font-size: 250px;
 }
 
 .skill_segment {}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marcelo Cantalice</title>
+    
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,9 +14,45 @@
     <link rel="stylesheet" href="./styles/Style.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" aria-label="Third navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MC</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-disabled="true" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-disabled="true" href="#">Contact-me</a>
+            </li>
+            <!--
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>-->
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+    <!--
     <div class="navbar-expand-lg sticky-top st_nav">
       <header
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom sticky-top navbar"
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom sticky-top navbar st_header"
       >
         <a
           href="/"
@@ -24,7 +61,7 @@
           <svg class="bi me-2" width="40" height="32">
             <use xlink:href="#bootstrap"></use>
           </svg>
-          <span class="fs-4">MC</span>
+          <span class="fs-4 ">MC</span>
         </a>
 
         <ul class="nav nav-pills">
@@ -38,10 +75,11 @@
         </ul>
       </header>
     </div>
-
+    -->
     <div class="px-4 py-5 my-5 text-center">
-      <h1>MC</h1>
+      <h1 class="logo_style">MC</h1>
       <h2 class="display-5 fw-bold text-body-emphasis">Marcelo Cantalice</h2>
+      <h3>Software Engenier</h3>
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-4">
           Quickly design and customize responsive mobile-first sites with
@@ -146,11 +184,10 @@
             </svg>
             <h2 class="fw-normal">Quiz Game</h2>
             <p>
-              Some representative placeholder content for the three columns of
-              text below the carousel. This is the first column.
+              A small game which you are challenged to give the correct answer, and have the max score you can.
             </p>
-            <p><a class="btn btn-secondary" href="#">View details »</a></p>
-          </div>
+            <p><a class="btn btn-secondary btn_qg_web" href="#">Web Version</a></p>
+            <p><a class="btn btn-secondary btn_qg_flutter" href="#">Flutter Version</a></p>          </div>
           <!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <svg
@@ -172,11 +209,10 @@
             </svg>
             <h2 class="fw-normal">Converter for Travels</h2>
             <p>
-              Another exciting bit of representative placeholder content. This
-              time, we've moved on to the second column.
+              An usefull project that can help you during your travels to place where uses different units of size of shoes, velocity, height, etc..
             </p>
-            <p><a class="btn btn-secondary" href="#">View details »</a></p>
-          </div>
+            <p><a class="btn btn-secondary btn_ct_web" href="#">Web Version</a></p>
+            <p><a class="btn btn-secondary btn_ct_flutter" href="#">Flutter Version</a></p>          </div>
           <!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <svg
@@ -198,10 +234,10 @@
             </svg>
             <h2 class="fw-normal">Shopping List</h2>
             <p>
-              And lastly this, the third column of representative placeholder
-              content.
+              An easy way to manage what you need to buy on suppermarket.
             </p>
-            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+            <p><a class="btn btn-secondary btn_sl_web" href="#">Web Version</a></p>
+            <p><a class="btn btn-secondary btn_sl_flutter" href="#">Flutter Version</a></p>
           </div>
           <!-- /.col-lg-4 -->
         </div>
@@ -211,16 +247,11 @@
       <div class="style_segments contact_segment">
         <h1>CONTACT-ME</h1>
         <div class="con-lg-4 contact_style">
-          <svg
-            class="bd-placeholder-img rounded-circle"
-            width="140"
-            height="140"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
+          <img  class="bd-placeholder-img rounded-circle"
+          width="140"
+          height="140"
+          src="https://pbs.twimg.com/profile_images/1552633266561290240/YbcFBAez_400x400.jpg" 
+          alt="">
             <title>Placeholder</title>
             <rect
               width="100%"
@@ -230,8 +261,8 @@
           </svg>
           <h2 class="fw-normal">Marcelo Cantalice</h2>
           <p>E-mail: <a href="">mhsc.developer@gmail.com</a></p>
-          <p>GitHub: <a href="">mhsc.developer@gmail.com</a></p>
-          <p>Twitter: <a href="">mhsc.developer@gmail.com</a></p>
+          <p>GitHub: <a href="">https://github.com/marcelo-cantalice</a></p>
+          <p>Twitter: <a href="">https://twitter.com/DeveloperMhsc</a></p>
         </div>
       </div>
     </main>
